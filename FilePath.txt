@@ -1,0 +1,16 @@
+[
+    {
+        "FileName": "testProj",
+        "from" : "C:\\Users\\elikh.WINDOWS-7DE51D1\\Desktop\\zip",
+        "to" : "C:\\Users\\elikh.WINDOWS-7DE51D1\\Desktop",
+        "WillCompressed" : true,
+        "HowManyBackupFileKeep" : 1
+    },
+    {
+        "FileName": "testProj",
+        "from" : "C:\\Users\\elikh.WINDOWS-7DE51D1\\Desktop\\Compressing",
+        "to" : "C:\\Users\\elikh.WINDOWS-7DE51D1\\Desktop",
+        "WillCompressed" : false,
+        "HowManyBackupFileKeep" : 7
+    }
+]

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "duBIxiymZ6iBicGuuC5n+9gEHCPXh1KB5VudAs+sW1uydmHdZitQrpElh7SHotmZKczgIoROeL+FVAHG3ydXIw==",
+  "success": true,
+  "projectFilePath": "D:\\EliasFile\\DotNetCore\\Compressing\\Compressing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elikh.WINDOWS-7DE51D1\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+C:\Users\elikh.WINDOWS-7DE51D1\Desktop\zip\Compressing.exe
+C:\Users\elikh.WINDOWS-7DE51D1\Desktop\zip\Compressing.dll
+C:\Users\elikh.WINDOWS-7DE51D1\Desktop\zip\Compressing.deps.json
+C:\Users\elikh.WINDOWS-7DE51D1\Desktop\zip\Compressing.runtimeconfig.json
+C:\Users\elikh.WINDOWS-7DE51D1\Desktop\zip\Compressing.pdb
+C:\Users\elikh.WINDOWS-7DE51D1\Desktop\zip\Newtonsoft.Json.dll

@@ -1,0 +1,6 @@
+D:\EliasFile\DotNetCore\Compressing\bin\Debug\net5.0\publish\Compressing.exe
+D:\EliasFile\DotNetCore\Compressing\bin\Debug\net5.0\publish\Compressing.dll
+D:\EliasFile\DotNetCore\Compressing\bin\Debug\net5.0\publish\Compressing.deps.json
+D:\EliasFile\DotNetCore\Compressing\bin\Debug\net5.0\publish\Compressing.runtimeconfig.json
+D:\EliasFile\DotNetCore\Compressing\bin\Debug\net5.0\publish\Compressing.pdb
+D:\EliasFile\DotNetCore\Compressing\bin\Debug\net5.0\publish\Newtonsoft.Json.dll
