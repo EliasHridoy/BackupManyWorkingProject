@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
+using System.Threading;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace Compressing
@@ -67,7 +69,19 @@ namespace Compressing
                     ToLocation = Path.Combine(ToLocation, fileName + ".zip");
                     try
                     {
-                        ZipFile.CreateFromDirectory(FromLocation, ToLocation);
+                        var work = new Task (()=>{
+                            ZipFile.CreateFromDirectory(FromLocation, ToLocation);
+                            Thread.Sleep(4000);
+                        });
+                        work.Start();
+
+                        while (!work.IsCompleted)
+                        {
+                            
+                            Console.Write('.');
+                            Thread.Sleep(500);
+                        }
+                        Console.WriteLine();
                         Done = 0;
                     }
                     catch (IOException)
@@ -80,7 +94,7 @@ namespace Compressing
                 Console.ResetColor();
 
                 if(obj.HowManyBackupFileKeep>0){
-                    DeletePreviousBackup(obj.To,obj.FileName,obj.HowManyBackupFileKeep);
+                    DeletePreviousBackup(obj.To, obj.FileName, obj.HowManyBackupFileKeep);
                 }
             }
             Console.WriteLine("" +
@@ -101,7 +115,9 @@ namespace Compressing
 | (_| (_) | | | | | | |_) | |  __/ ||  __/ (_| |
  \___\___/|_| |_| |_| .__/|_|\___|\__\___|\__,_|
                     | |                         
-                    |_|                         
+                    |_|
+
+                    by
  _____ _ _             _   _      _     _             
 |  ___| (_)           | | | |    (_)   | |            
 | |__ | |_  __ _ ___  | |_| |_ __ _  __| | ___  _   _ 
